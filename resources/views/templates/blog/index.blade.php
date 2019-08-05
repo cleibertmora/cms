@@ -2,6 +2,6 @@
 
 @section('content')
 
-<a href="" class="btn btn-default">add new post</a>
+    <a href="{{ route('posts.create') }}" class="btn btn-default">add new post</a>
 
 @endsection
