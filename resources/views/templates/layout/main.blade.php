@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cleibert Blog</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script>
 </head>
 <body>
 

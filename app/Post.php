@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
+    protected $table = 'blog_posts';
+
     protected $fillable = [
         'title',
         'slug',
@@ -14,4 +16,6 @@ class Post extends Model
         'seo_description',
         'body'
     ];
+
+    public $timestamps = false;
 }
